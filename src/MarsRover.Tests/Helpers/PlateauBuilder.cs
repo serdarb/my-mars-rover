@@ -1,9 +1,12 @@
 using System;
+
 using Moq;
+
+using MarsRover.Business.Contract;
+using MarsRover.Business.Domain;
 
 namespace MarsRover.Tests
 {
-
 	public class PlateauBuilder
 	{
 		public PlateauBuilder ()
@@ -11,7 +14,7 @@ namespace MarsRover.Tests
 
 		}
 
-		internal Plateau Build()
+		internal IPlateau Build()
 		{
 			return new Plateau(5,5);
 		}

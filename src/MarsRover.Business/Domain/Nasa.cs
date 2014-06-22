@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace MarsRover.Tests
+using MarsRover.Business.Core;
+using MarsRover.Business.Contract;
+
+namespace MarsRover.Business.Domain
 {
 	public class Nasa : ISpaceAgency
 	{
@@ -48,4 +51,3 @@ namespace MarsRover.Tests
 		}
 	}
 }
-

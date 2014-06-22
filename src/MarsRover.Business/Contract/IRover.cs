@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
+	public delegate void ResearchEndedEventHandler (object sender, EventArgs e);
+
 	public interface IRover
 	{
 		event ResearchEndedEventHandler ResearchEnded;
@@ -13,7 +15,7 @@ namespace MarsRover.Tests
 		ICamera Camera {get;}
 		Dictionary<string,Bitmap> Photos { get; }
 		CompassPoint Position{ get;	set; }
-		Location Location {	get; set; }
+		ILocation Location {	get; set; }
 
 		void TakePhoto ();
 		void SendPhotosToNasa ();
@@ -21,7 +23,7 @@ namespace MarsRover.Tests
 		bool Spin (char spiningSide);
 		bool MoveForward ();
 
-		void Research (ResearchInfo researchInfo);
+		void Research (IResearchInfo researchInfo);
 	}
 }
 

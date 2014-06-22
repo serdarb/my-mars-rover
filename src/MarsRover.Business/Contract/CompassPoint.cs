@@ -1,4 +1,4 @@
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
 	public enum CompassPoint
 	{

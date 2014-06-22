@@ -1,6 +1,6 @@
 using System;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Core
 {
 	public class ResearchEndedEventArgs : EventArgs
 	{

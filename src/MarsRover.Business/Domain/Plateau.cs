@@ -1,6 +1,8 @@
 using System;
 
-namespace MarsRover.Tests
+using MarsRover.Business.Contract;
+
+namespace MarsRover.Business.Domain
 {
 	public class Plateau : Rectangular, IPlateau
 	{
@@ -27,4 +29,3 @@ namespace MarsRover.Tests
 		}
 	}
 }
-

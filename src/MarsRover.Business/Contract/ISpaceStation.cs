@@ -1,16 +1,15 @@
-using System;
 using System.Collections.Generic;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
 	public interface ISpaceStation
 	{
 		IPlanet Mars { get; }
 		Queue<string> UnprocessedCommands { get; }
-		Queue<ResearchInfo> ResearchInfos {	get; }
+		Queue<IResearchInfo> ResearchInfos {	get; }
 
 		void ValidateCommandsAndEnqueueResearchInfos ();
-		Plateau DefinePlateau (int width, int height);
+		IPlateau DefinePlateau (int width, int height);
 		bool StartResearching ();
 	}
 }

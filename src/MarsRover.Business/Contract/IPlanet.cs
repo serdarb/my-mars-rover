@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
 	public interface IPlanet
 	{
-		Plateau Plateau { get; set;	}
+		IPlateau Plateau { get; set;	}
 		List<IRover> Rovers { get;	}
 	}
 }

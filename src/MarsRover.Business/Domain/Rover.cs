@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace MarsRover.Tests
+using MarsRover.Business.Core;
+using MarsRover.Business.Contract;
+
+namespace MarsRover.Business.Domain
 {
 	public class Rover : IRover
 	{
@@ -16,7 +19,7 @@ namespace MarsRover.Tests
 
 		public bool IsResearching { get; set; }
 		public CompassPoint Position { get; set; }
-		public Location Location { get;	set; }
+		public ILocation Location { get;	set; }
 
 		private ICamera _camera;
 		public ICamera Camera {
@@ -106,7 +109,7 @@ namespace MarsRover.Tests
 			return true;
 		}
 
-		public void Research (ResearchInfo researchInfo)
+		public void Research (IResearchInfo researchInfo)
 		{
 			GetSet (researchInfo.RoverPosition);
 			ProcessCommands (researchInfo.RoverExploration);

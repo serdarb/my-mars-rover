@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Collections.Generic;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
 	public interface ISpaceAgency
 	{
@@ -13,4 +13,3 @@ namespace MarsRover.Tests
 		void SendCommandsToSpaceStation (ISpaceStation spaceStation, string commands);
 	}
 }
-

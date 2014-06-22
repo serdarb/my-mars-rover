@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace MarsRover.Tests
+using MarsRover.Business.Core;
+using MarsRover.Business.Contract;
+
+namespace MarsRover.Business.Domain
 {
 	public class SpaceStation : ISpaceStation
 	{
 		private Queue<string> _unprocessedCommands;
-
 		public Queue<string> UnprocessedCommands {
 			get {
 				return _unprocessedCommands;
 			}
 		}
 
-		private Queue<ResearchInfo> _researchInfos;
-
-		public Queue<ResearchInfo> ResearchInfos {
+		private Queue<IResearchInfo> _researchInfos;
+		public Queue<IResearchInfo> ResearchInfos {
 			get {
 				return _researchInfos;
 			}
@@ -27,16 +28,16 @@ namespace MarsRover.Tests
 			get { return _mars; }
 		}
 
-		private CommandParser _commandParser;
+		private ICommandParser _commandParser;
 		private IPlanet _mars;
 
-		public SpaceStation (IPlanet mars, CommandParser commandParser)
+		public SpaceStation (IPlanet mars, ICommandParser commandParser)
 		{
 			_mars = mars;
 			_commandParser = commandParser;
 
 			_unprocessedCommands = new Queue<string> ();
-			_researchInfos = new Queue<ResearchInfo> ();
+			_researchInfos = new Queue<IResearchInfo> ();
 		}
 
 		public void ValidateCommandsAndEnqueueResearchInfos ()
@@ -60,7 +61,7 @@ namespace MarsRover.Tests
 			}
 		}
 
-		public Plateau DefinePlateau (int width, int height)
+		public IPlateau DefinePlateau (int width, int height)
 		{
 			return new Plateau (width, height);
 		}
@@ -103,7 +104,6 @@ namespace MarsRover.Tests
 			var rover = Mars.Rovers.FirstOrDefault (x => !x.IsResearching);
 			if (rover == null)
 				throw new Exception ("all rovers are busy please try again later");
-
 
 			rover.IsResearching = true;
 			return rover;

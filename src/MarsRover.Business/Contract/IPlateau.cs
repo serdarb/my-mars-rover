@@ -1,6 +1,6 @@
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
-	public interface IPlateau
+	public interface IPlateau : IRectangular
 	{
 		int Bottom { get; }
 		int Left { get; }

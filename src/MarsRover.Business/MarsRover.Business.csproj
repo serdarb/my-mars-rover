@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A090D36C-DE97-41F6-BF33-0867168DFBCB}</ProjectGuid>
+    <ProjectGuid>{F77675EA-600A-4572-9BFE-BF3E72D31EAE}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>MarsRover.Tests</RootNamespace>
-    <AssemblyName>MarsRover.Tests</AssemblyName>
+    <RootNamespace>MarsRover.Business</RootNamespace>
+    <AssemblyName>MarsRover.Business</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,39 +30,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System.Drawing" />
-    <Reference Include="Castle.Core">
-      <HintPath>..\..\packages\Castle.Core.3.3.0\lib\net40-client\Castle.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Windsor">
-      <HintPath>..\..\packages\Castle.Windsor.3.3.0\lib\net40\Castle.Windsor.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Moq">
-      <HintPath>..\..\packages\Moq.4.2.1402.2112\lib\net40\Moq.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DomainDesignTests.cs" />
-    <Compile Include="Helpers\RoverBuilder.cs" />
-    <Compile Include="Helpers\PlateauBuilder.cs" />
+    <Compile Include="Contract\ICommandParser.cs" />
+    <Compile Include="Contract\ICamera.cs" />
+    <Compile Include="Contract\IPlateau.cs" />
+    <Compile Include="Contract\IPlanet.cs" />
+    <Compile Include="Contract\IRectangular.cs" />
+    <Compile Include="Contract\IRover.cs" />
+    <Compile Include="Contract\ISpaceStation.cs" />
+    <Compile Include="Contract\ISpaceAgency.cs" />
+    <Compile Include="Contract\IResearchInfo.cs" />
+    <Compile Include="Contract\ILocation.cs" />
+    <Compile Include="Contract\CompassPoint.cs" />
+    <Compile Include="Domain\Camera.cs" />
+    <Compile Include="Domain\Mars.cs" />
+    <Compile Include="Domain\Rectangular.cs" />
+    <Compile Include="Domain\Location.cs" />
+    <Compile Include="Domain\Nasa.cs" />
+    <Compile Include="Domain\SpaceStation.cs" />
+    <Compile Include="Domain\Rover.cs" />
+    <Compile Include="Domain\Plateau.cs" />
+    <Compile Include="Domain\ResearchInfo.cs" />
+    <Compile Include="Core\ResearchEndedEventArgs.cs" />
+    <Compile Include="Core\CommandParser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MarsRover.Business\MarsRover.Business.csproj">
-      <Project>{F77675EA-600A-4572-9BFE-BF3E72D31EAE}</Project>
-      <Name>MarsRover.Business</Name>
-    </ProjectReference>
+    <Folder Include="Domain\" />
+    <Folder Include="Contract\" />
+    <Folder Include="Core\" />
   </ItemGroup>
 </Project>

@@ -1,8 +1,12 @@
 using System;
-using NUnit.Framework;
-using Castle.Windsor;
+
 using Castle.MicroKernel.Registration;
+using Castle.Windsor;
 using Moq;
+using NUnit.Framework;
+
+using MarsRover.Business.Contract;
+using MarsRover.Business.Domain;
 
 namespace MarsRover.Tests
 {

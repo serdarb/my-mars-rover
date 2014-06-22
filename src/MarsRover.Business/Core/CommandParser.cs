@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace MarsRover.Tests
+using MarsRover.Business.Contract;
+using MarsRover.Business.Domain;
+
+namespace MarsRover.Business.Core
 {
 	public class CommandParser : ICommandParser
 	{
@@ -42,11 +45,11 @@ namespace MarsRover.Tests
 			return commands;
 		}
 
-		public List<ResearchInfo> GetResearchInfos (string command)
+		public List<IResearchInfo> GetResearchInfos (string command)
 		{
 			var commands = ValidateCommand (command);
 
-			var result = new List<ResearchInfo> ();
+			var result = new List<IResearchInfo> ();
 			for (int i = 1; i < commands.Length; i = i + 2) {
 
 				var positionString = commands[i];

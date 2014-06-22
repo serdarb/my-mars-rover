@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
 using System.Drawing;
 
-namespace MarsRover.Tests
+namespace MarsRover.Business.Contract
 {
 	public interface ICamera
 	{
 		Bitmap TakePhoto ();
 	}
 }
-

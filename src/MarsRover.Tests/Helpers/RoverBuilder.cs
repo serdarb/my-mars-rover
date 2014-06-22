@@ -1,5 +1,9 @@
 using System;
+
 using Moq;
+
+using MarsRover.Business.Contract;
+using MarsRover.Business.Domain;
 
 namespace MarsRover.Tests
 {
@@ -26,10 +30,9 @@ namespace MarsRover.Tests
 			return this;
 		}
 
-		internal Rover Build()
+		internal IRover Build()
 		{
 			return new Rover(_spaceAgency, _camera);
 		}
 	}
-
 }
