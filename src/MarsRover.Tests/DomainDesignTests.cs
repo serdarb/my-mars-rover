@@ -117,6 +117,21 @@ namespace MarsRover.Tests
 
 			Assert.AreEqual (oldUprocessedCommandCount + 1, newUprocessedCommandCount);
 		}
+
+		[Test]
+		public void space_station_validates_navigation_commands()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var spaceStation = nasa.CreateSpaceStation ();
+
+			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
+
+			int oldResearchInfoCount = spaceStation.ResearchInfos.Count;
+			spaceStation.ValidateCommandsAndEnqueueResearchInfos ();
+			int newResearchInfoCount = spaceStation.ResearchInfos.Count;
+
+			Assert.AreEqual (oldResearchInfoCount + 2, newResearchInfoCount);
+		}
 	}
 }
 

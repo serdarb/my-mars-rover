@@ -21,7 +21,7 @@ namespace MarsRover.Tests
 
 		public ISpaceStation CreateSpaceStation ()
 		{
-			return new SpaceStation ();
+			return new SpaceStation (new Mars(), new CommandParser());
 		}
 
 		public void SendRoverToMars (IPlanet mars, IRover rover)

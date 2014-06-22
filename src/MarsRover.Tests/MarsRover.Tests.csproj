@@ -67,6 +67,9 @@
     <Compile Include="Helpers\PlateauBuilder.cs" />
     <Compile Include="ISpaceStation.cs" />
     <Compile Include="SpaceStation.cs" />
+    <Compile Include="ResearchInfo.cs" />
+    <Compile Include="CommandParser.cs" />
+    <Compile Include="ICommandParser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
