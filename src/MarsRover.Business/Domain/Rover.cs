@@ -105,7 +105,19 @@ namespace MarsRover.Business.Domain
 
 		public bool MoveForward ()
 		{
-			Location.Y++;
+			if (Position == CompassPoint.North) {
+				Location.Y++;
+			} 
+			else if (Position == CompassPoint.South) {
+				Location.Y--;
+			}
+			else if (Position == CompassPoint.East) {
+				Location.X++;
+			}
+			else if (Position == CompassPoint.West) {
+				Location.X--;
+			}
+
 			return true;
 		}
 
