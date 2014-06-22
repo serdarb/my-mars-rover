@@ -146,6 +146,28 @@ namespace MarsRover.Tests
 			Assert.AreEqual (spaceStation.Mars.Plateau.Width, 5);
 			Assert.AreEqual (spaceStation.Mars.Plateau.Height, 5);
 		}
+
+		[Test]
+		public void L_command_should_make_rover_spin_lest()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var rover = nasa.CreateRover ();
+			rover.Position = CompassPoint.North;
+
+			Assert.IsTrue( rover.Spin('L'));
+			Assert.AreEqual (rover.Position, CompassPoint.West);
+		}
+
+		[Test]
+		public void R_command_should_make_rover_spin_lest()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var rover = nasa.CreateRover ();
+			rover.Position = CompassPoint.North;
+
+			Assert.IsTrue( rover.Spin('R'));
+			Assert.AreEqual (rover.Position, CompassPoint.East);
+		}
 	}
 }
 

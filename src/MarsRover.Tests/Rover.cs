@@ -7,11 +7,12 @@ namespace MarsRover.Tests
 	public class Rover : IRover
 	{
 		private string _name;
+
 		public string Name {
 			get{ return _name; }
 		}
 
-		public CompassPoint Position{
+		public CompassPoint Position {
 			get;
 			set;
 		}
@@ -22,11 +23,13 @@ namespace MarsRover.Tests
 		}
 
 		private ICamera _camera;
+
 		public ICamera Camera {
 			get{ return _camera; }
 		}
 
 		private Dictionary<string,Bitmap> _photos;
+
 		public Dictionary<string,Bitmap> Photos {
 			get{ return _photos; }
 		}
@@ -37,6 +40,7 @@ namespace MarsRover.Tests
 		}
 
 		private ISpaceAgency _nasa;
+
 		public Rover (ISpaceAgency nasa, ICamera camera)
 		{
 			_nasa = nasa;
@@ -62,7 +66,45 @@ namespace MarsRover.Tests
 
 			Photos.Clear ();
 		}
-	}
 
+		public bool Spin (char spiningSide)
+		{
+			var positionChar = Position.ToString () [0];
+			switch (spiningSide) {
+				case 'L':
+				SpinLeft (positionChar);
+					break;
+				case 'R':
+				SpinRight (positionChar);
+					break;
+				default:
+					throw new ArgumentException ("not valid spiningSide");					
+			}
+
+			return true;
+		}
+
+		private void SpinLeft (char direction)
+		{
+			var lookupTable = new Dictionary<char, CompassPoint> {
+				{'N', CompassPoint.West},
+				{'W', CompassPoint.South},
+				{'S', CompassPoint.East},
+				{'E', CompassPoint.North}
+			};
+			Position = lookupTable [direction];
+		}
+
+		private void SpinRight (char direction)
+		{
+			var lookupTable = new Dictionary<char, CompassPoint> {
+				{'N', CompassPoint.East},
+				{'W', CompassPoint.North},
+				{'S', CompassPoint.West},
+				{'E', CompassPoint.South}
+			};
+			Position = lookupTable [direction];
+		}
+	}
 }
 
