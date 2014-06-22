@@ -106,14 +106,48 @@ namespace MarsRover.Tests
 			return true;
 		}
 
-		public void Research ()
+		public void Research (ResearchInfo researchInfo)
 		{
-			//processresearchinfo
+			GetSet (researchInfo.RoverPosition);
+			ProcessCommands (researchInfo.RoverExploration);
 
 			Camera.TakePhoto ();
 
 			var exploreEndedEventArgs = new ResearchEndedEventArgs (string.Format("{0} {1} {2}", Location.X, Location.Y, Position.ToString()[0]));
 			ResearchEnded(this, exploreEndedEventArgs);
+		}
+
+		void ProcessCommands (string commands)
+		{
+			foreach (char command in commands) {
+				if (command == 'M') {
+					MoveForward ();
+				} else {
+					Spin (command);
+				}
+			}
+		}
+
+		private void GetSet (string roverPosition)
+		{
+			var items = roverPosition.Split(new char[]{' '}, StringSplitOptions.RemoveEmptyEntries);
+
+			var x = Convert.ToInt32 (items[0]);
+			var y = Convert.ToInt32 (items[1]);
+
+			Location = new Location { X = x, Y = y };
+			SetPosition (items [2][0]);
+		}
+
+		private void SetPosition (char direction)
+		{
+			var lookupTable = new Dictionary<char, CompassPoint> {
+				{'N', CompassPoint.North},
+				{'W', CompassPoint.West},
+				{'S', CompassPoint.South},
+				{'E', CompassPoint.East}
+			};
+			Position = lookupTable [direction];
 		}
 	}
 

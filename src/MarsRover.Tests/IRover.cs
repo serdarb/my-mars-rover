@@ -21,7 +21,7 @@ namespace MarsRover.Tests
 		bool Spin (char spiningSide);
 		bool MoveForward ();
 
-		void Research ();
+		void Research (ResearchInfo researchInfo);
 	}
 }
 

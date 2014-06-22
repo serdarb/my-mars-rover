@@ -56,8 +56,8 @@ namespace MarsRover.Tests
 				    || string.IsNullOrWhiteSpace (explorationString))
 					throw new ArgumentException ("command has empty line > " + i);
 
-				result.Add (new ResearchInfo { RoverPosition = positionString, 
-											   RoverExploration = explorationString });
+				result.Add (new ResearchInfo { RoverPosition = positionString.Trim(), 
+											   RoverExploration = explorationString.Trim() });
 			}
 
 			return result;

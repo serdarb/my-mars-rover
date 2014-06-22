@@ -90,12 +90,12 @@ namespace MarsRover.Tests
 			}
 
 			var researchInfo = ResearchInfos.Dequeue ();
-			var rover = ConnectToRover (researchInfo);
+			var rover = ConnectToRover ();
 			rover.ResearchEnded += roverResearchEnded;
-			rover.Research ();
+			rover.Research (researchInfo);
 		}
 
-		IRover ConnectToRover (ResearchInfo researchInfo)
+		IRover ConnectToRover ()
 		{
 			if (Mars.Rovers.Count == 0)
 				throw new Exception ("there is no rover on mars");
