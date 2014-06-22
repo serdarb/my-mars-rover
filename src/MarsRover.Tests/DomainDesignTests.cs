@@ -168,6 +168,17 @@ namespace MarsRover.Tests
 			Assert.IsTrue( rover.Spin('R'));
 			Assert.AreEqual (rover.Position, CompassPoint.East);
 		}
+
+		[Test]
+		public void M_command_should_move_rover_forward()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var rover = nasa.CreateRover ();
+			rover.Location.Y = 0;
+
+			Assert.IsTrue( rover.MoveForward ());
+			Assert.AreEqual (rover.Location.Y, 1);
+		}
 	}
 }
 

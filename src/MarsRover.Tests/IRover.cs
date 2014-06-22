@@ -16,6 +16,7 @@ namespace MarsRover.Tests
 		void SendPhotosToNasa ();
 
 		bool Spin (char spiningSide);
+		bool MoveForward ();
 	}
 }
 

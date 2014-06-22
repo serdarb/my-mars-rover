@@ -105,6 +105,12 @@ namespace MarsRover.Tests
 			};
 			Position = lookupTable [direction];
 		}
+
+		public bool MoveForward ()
+		{
+			Location.Y++;
+			return true;
+		}
 	}
 }
 
