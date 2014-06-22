@@ -1,16 +1,30 @@
 using System;
 using NUnit.Framework;
+using Castle.Windsor;
+using Castle.MicroKernel.Registration;
 
 namespace MarsRover.Tests
 {
 	[TestFixture]
 	public class DomainDesignTests
 	{
+		protected WindsorContainer _container;
+
+		[SetUp]
+		public void SetUp()
+		{
+			_container = new WindsorContainer();
+
+			_container.Register(Component.For<IPlanet>().ImplementedBy<Mars>());
+			_container.Register(Component.For<IPlateau>().ImplementedBy<Plateau>());
+			_container.Register(Component.For<ISpaceAgency>().ImplementedBy<Nasa>());
+		}
+
 		[Test]
 		public void mars_should_have_a_rectengular_plataeu()
 		{
-			var mars = new Mars ();
-			mars.Plateau = new Plateau ();
+			var mars = _container.Resolve<IPlanet>();
+			mars.Plateau = new Plateau();
 
 			Assert.IsNotNull (mars.Plateau);
 			Assert.IsInstanceOf (typeof(Rectangular), mars.Plateau);
@@ -19,9 +33,9 @@ namespace MarsRover.Tests
 		[Test]
 		public void nasa_should_land_rovers_on_mars()
 		{
-			var nasa = new Nasa ();
+			var nasa = _container.Resolve<ISpaceAgency>();
 			var rover = nasa.CreateRover ();
-			var mars = new Mars ();
+			var mars = _container.Resolve<IPlanet>();
 
 			Assert.IsNotNull (mars.Rovers);
 
@@ -35,9 +49,8 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_camera_should_take_a_photo()
 		{
-			var nasa = new Nasa ();
+			var nasa = _container.Resolve<ISpaceAgency>();
 			var rover = nasa.CreateRover ();
-			rover.Camera = new Camera ();
 
 			Assert.IsNotNull (rover.Camera);
 			Assert.IsNotNull (rover.Photos);
@@ -52,7 +65,7 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_should_send_photos_to_nasa()
 		{
-			var nasa = new Nasa ();
+			var nasa = _container.Resolve<ISpaceAgency>();
 			var rover = nasa.CreateRover ();
 
 			rover.TakePhoto ();

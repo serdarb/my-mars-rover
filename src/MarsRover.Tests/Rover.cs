@@ -1,48 +1,51 @@
 using System;
-using System.Drawing;
-using NUnit.Framework;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace MarsRover.Tests
 {
-	public class Rover
+	public class Rover : IRover
 	{
+		private string _name;
 		public string Name {
-			get;
-			set;
+			get{ return _name; }
 		}
 
-		public Camera Camera {
-			get;
-			set;
+		private ICamera _camera;
+		public ICamera Camera {
+			get{ return _camera; }
 		}
 
+		private Dictionary<string,Bitmap> _photos;
 		public Dictionary<string,Bitmap> Photos {
-			get;
-			set;
+			get{ return _photos; }
 		}
 
-		private Nasa _nasa;
-		public Rover (Nasa nasa)
+		private Rover ()
+		{
+			
+		}
+
+		private ISpaceAgency _nasa;
+		public Rover (ISpaceAgency nasa, ICamera camera)
 		{
 			_nasa = nasa;
-
-			Name = Guid.NewGuid ().ToString ();
-			Camera = new Camera ();
-			Photos = new Dictionary<string,Bitmap> ();
+			_camera = camera;
+			_name = Guid.NewGuid ().ToString ();
+			_photos = new Dictionary<string,Bitmap> ();
 		}
 
 		public void TakePhoto ()
 		{
 			var image = Camera.TakePhoto ();
-			var imagaName = string.Format ("{0}-{1}.bmp",Name,Guid.NewGuid().ToString());
+			var imagaName = string.Format ("{0}-{1}.bmp", Name, Guid.NewGuid ().ToString ());
 			Photos.Add (imagaName, image);
 		}
 
 		public void SendPhotosToNasa ()
 		{
 			foreach (var item in Photos) {
-				_nasa.Photos.Add (item.Key,item.Value);
+				_nasa.Photos.Add (item.Key, item.Value);
 			}		
 
 			Photos.Clear ();

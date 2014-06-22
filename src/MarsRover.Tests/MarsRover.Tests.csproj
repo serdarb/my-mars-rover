@@ -34,6 +34,14 @@
       <HintPath>..\..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\packages\Castle.Core.3.3.0\lib\net40-client\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\..\packages\Castle.Windsor.3.3.0\lib\net40\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -44,6 +52,12 @@
     <Compile Include="Nasa.cs" />
     <Compile Include="Rover.cs" />
     <Compile Include="Camera.cs" />
+    <Compile Include="ISpaceAgency.cs" />
+    <Compile Include="IPlanet.cs" />
+    <Compile Include="IRectangular.cs" />
+    <Compile Include="IPlateau.cs" />
+    <Compile Include="IRover.cs" />
+    <Compile Include="ICamera.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

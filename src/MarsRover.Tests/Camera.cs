@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace MarsRover.Tests
 {
-	public class Camera
+	public class Camera : ICamera
 	{
 		public Bitmap TakePhoto ()
 		{

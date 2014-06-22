@@ -4,24 +4,22 @@ using System.Drawing;
 
 namespace MarsRover.Tests
 {
-	public class Nasa
+	public class Nasa : ISpaceAgency
 	{
-		public Dictionary<string,Bitmap> Photos {
-			get;
-			set;
-		}
+		private Dictionary<string, Bitmap> _photos;
+		public Dictionary<string,Bitmap> Photos { get{ return _photos; } }
 
 		public Nasa ()
 		{
-			Photos = new Dictionary<string, Bitmap> ();
+			_photos = new Dictionary<string, Bitmap> ();
 		}
 
-		public Rover CreateRover ()
+		public IRover CreateRover ()
 		{
-			return new Rover(this);
+			return new Rover(this, new Camera());
 		}
 
-		public void SendRoverToMars (Mars mars, Rover rover)
+		public void SendRoverToMars (IPlanet mars, IRover rover)
 		{
 			if (mars == null)
 				throw new ArgumentNullException("mars");

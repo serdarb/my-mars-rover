@@ -2,7 +2,7 @@ using System;
 
 namespace MarsRover.Tests
 {
-	public class Rectangular
+	public class Rectangular : IRectangular
 	{
 		public int Width {
 			get;
