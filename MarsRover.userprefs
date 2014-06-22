@@ -1,16 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/MarsRover.Tests/Rover.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/MarsRover.Tests/DomainDesignTests.cs">
     <Files>
-      <File FileName="src/MarsRover.Tests/DomainDesignTests.cs" Line="53" Column="27" />
-      <File FileName="src/MarsRover.Tests/Nasa.cs" Line="21" Column="19" />
-      <File FileName="src/MarsRover.Tests/Rover.cs" Line="14" Column="3" />
+      <File FileName="src/MarsRover.Tests/DomainDesignTests.cs" Line="109" Column="50" />
+      <File FileName="src/MarsRover.Tests/Rover.cs" Line="60" Column="11" />
+      <File FileName="src/MarsRover.Tests/ISpaceAgency.cs" Line="8" Column="22" />
+      <File FileName="src/MarsRover.Tests/Nasa.cs" Line="10" Column="29" />
+      <File FileName="src/MarsRover.Tests/SpaceStation.cs" Line="18" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="MarsRover.Tests" expanded="True">
-            <Node name="Rover.cs" selected="True" />
+            <Node name="Helpers" expanded="True" />
+            <Node name="DomainDesignTests.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -21,7 +24,17 @@
         <State />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="MarsRover.Tests" expanded="True">
+            <Node name="MarsRover" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="DomainDesignTests" expanded="True">
+                  <Node name="rover_should_send_photos_to_nasa" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

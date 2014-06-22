@@ -7,7 +7,7 @@ namespace MarsRover.Tests
 	public class Nasa : ISpaceAgency
 	{
 		private Dictionary<string, Bitmap> _photos;
-		public Dictionary<string,Bitmap> Photos { get{ return _photos; } }
+		public Dictionary<string, Bitmap> Photos { get{ return _photos; } }
 
 		public Nasa ()
 		{
@@ -19,6 +19,11 @@ namespace MarsRover.Tests
 			return new Rover(this, new Camera());
 		}
 
+		public ISpaceStation CreateSpaceStation ()
+		{
+			return new SpaceStation ();
+		}
+
 		public void SendRoverToMars (IPlanet mars, IRover rover)
 		{
 			if (mars == null)
@@ -28,6 +33,17 @@ namespace MarsRover.Tests
 				throw new ArgumentNullException("rover");
 
 			mars.Rovers.Add (rover);
+		}
+
+		public void SendCommandsToSpaceStation (ISpaceStation spaceStation, string commands)
+		{
+			if (spaceStation == null)
+				throw new ArgumentNullException("spaceStation");
+
+			if (string.IsNullOrWhiteSpace(commands))
+				throw new ArgumentNullException("commands");
+
+			spaceStation.UnprocessedCommands.Enqueue (commands);
 		}
 	}
 }

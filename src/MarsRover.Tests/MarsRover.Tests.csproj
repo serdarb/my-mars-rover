@@ -65,6 +65,8 @@
     <Compile Include="CompassPoint.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Helpers\PlateauBuilder.cs" />
+    <Compile Include="ISpaceStation.cs" />
+    <Compile Include="SpaceStation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

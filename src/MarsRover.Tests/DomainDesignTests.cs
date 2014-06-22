@@ -2,12 +2,19 @@ using System;
 using NUnit.Framework;
 using Castle.Windsor;
 using Castle.MicroKernel.Registration;
+using Moq;
 
 namespace MarsRover.Tests
 {
 	[TestFixture]
 	public class DomainDesignTests
 	{
+		const string COMMANDS = @"5 5
+							      1 2 N
+							      LMLMLMLMM
+							      3 3 E
+							      MMRMMRMRRM";
+
 		protected WindsorContainer _container;
 
 		[SetUp]
@@ -64,7 +71,8 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_should_send_photos_to_nasa()
 		{
-			var rover = new RoverBuilder ().Build ();
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var rover = nasa.CreateRover ();
 
 			rover.TakePhoto ();
 
@@ -95,6 +103,19 @@ namespace MarsRover.Tests
 		{
 			var plateau = new PlateauBuilder ().Build ();
 			Assert.IsNotNull (plateau.Grid);
+		}
+
+		[Test]
+		public void nasa_sends_string_commands_to_control_rovers()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var spaceStation = nasa.CreateSpaceStation ();
+
+			int oldUprocessedCommandCount = spaceStation.UnprocessedCommands.Count;
+			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
+			int newUprocessedCommandCount = spaceStation.UnprocessedCommands.Count;
+
+			Assert.AreEqual (oldUprocessedCommandCount + 1, newUprocessedCommandCount);
 		}
 	}
 }
