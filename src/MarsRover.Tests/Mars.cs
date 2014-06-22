@@ -10,14 +10,12 @@ namespace MarsRover.Tests
 			set;
 		}
 
-		public List<IRover> Rovers {
-			get;
-			set;
-		}
+		private List<IRover> _rovers;
+		public List<IRover> Rovers { get { return _rovers; } }
 
 		public Mars ()
 		{
-			Rovers = new List<IRover> ();
+			_rovers = new List<IRover> ();
 		}
 	}
 }

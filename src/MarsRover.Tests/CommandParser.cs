@@ -63,12 +63,17 @@ namespace MarsRover.Tests
 			return result;
 		}
 
-		public int[] GetPlateauMetrics (string command)
+		public List<int> GetPlateauMetrics (string command)
 		{
 			var commands = ValidateCommand (command);
 
-			var firstLine = commands [0];
-			return new int[] { firstLine[0], firstLine[2] };
+			var items = commands [0].Split(new char[]{' '}, StringSplitOptions.RemoveEmptyEntries);
+
+			var result = new List<int> ();
+			result.Add (Convert.ToInt32(items [0]));
+			result.Add (Convert.ToInt32(items [1]));
+
+			return result;
 		}
 	}
 }

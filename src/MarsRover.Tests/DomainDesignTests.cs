@@ -119,7 +119,7 @@ namespace MarsRover.Tests
 		}
 
 		[Test]
-		public void space_station_validates_navigation_commands()
+		public void space_station_should_validate_navigation_commands()
 		{
 			var nasa = _container.Resolve<ISpaceAgency>();
 			var spaceStation = nasa.CreateSpaceStation ();
@@ -131,6 +131,20 @@ namespace MarsRover.Tests
 			int newResearchInfoCount = spaceStation.ResearchInfos.Count;
 
 			Assert.AreEqual (oldResearchInfoCount + 2, newResearchInfoCount);
+		}
+
+		[Test]
+		public void space_station_should_define_plataue()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var spaceStation = nasa.CreateSpaceStation ();
+
+			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
+			spaceStation.ValidateCommandsAndEnqueueResearchInfos ();
+
+			Assert.IsNotNull (spaceStation.Mars);
+			Assert.AreEqual (spaceStation.Mars.Plateau.Width, 5);
+			Assert.AreEqual (spaceStation.Mars.Plateau.Height, 5);
 		}
 	}
 }

@@ -5,6 +5,7 @@ namespace MarsRover.Tests
 {
 	public interface ISpaceStation
 	{
+		IPlanet Mars { get; }
 		Queue<string> UnprocessedCommands { get; }
 		Queue<ResearchInfo> ResearchInfos {	get; }
 
