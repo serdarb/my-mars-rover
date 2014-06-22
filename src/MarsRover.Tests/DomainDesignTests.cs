@@ -24,7 +24,7 @@ namespace MarsRover.Tests
 		public void mars_should_have_a_rectengular_plataeu()
 		{
 			var mars = _container.Resolve<IPlanet>();
-			mars.Plateau = new Plateau();
+			mars.Plateau = new PlateauBuilder ().Build ();
 
 			Assert.IsNotNull (mars.Plateau);
 			Assert.IsInstanceOf (typeof(Rectangular), mars.Plateau);
@@ -49,8 +49,7 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_camera_should_take_a_photo()
 		{
-			var nasa = _container.Resolve<ISpaceAgency>();
-			var rover = nasa.CreateRover ();
+			var rover = new RoverBuilder ().Build ();
 
 			Assert.IsNotNull (rover.Camera);
 			Assert.IsNotNull (rover.Photos);
@@ -65,8 +64,7 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_should_send_photos_to_nasa()
 		{
-			var nasa = _container.Resolve<ISpaceAgency>();
-			var rover = nasa.CreateRover ();
+			var rover = new RoverBuilder ().Build ();
 
 			rover.TakePhoto ();
 
@@ -90,6 +88,13 @@ namespace MarsRover.Tests
 			Assert.AreEqual (rover.Position, CompassPoint.North);
 			Assert.AreEqual (rover.Location.X, 0);
 			Assert.AreEqual (rover.Location.Y, 0);
+		}
+
+		[Test]
+		public void plateau_has_a_grid_system()
+		{
+			var plateau = new PlateauBuilder ().Build ();
+			Assert.IsNotNull (plateau.Grid);
 		}
 	}
 }
