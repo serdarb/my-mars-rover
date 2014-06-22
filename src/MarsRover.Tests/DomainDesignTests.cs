@@ -76,6 +76,22 @@ namespace MarsRover.Tests
 
 			Assert.AreEqual (0, newPhotoCount);
 		}
+
+		[Test]
+		public void rover_should_have_compasspoint_position_and_x_y_coordinate_location()
+		{
+			var rover = new RoverBuilder ().Build ();
+
+			rover.Position = CompassPoint.North;
+			rover.Location = new Location { X=0,Y=0};
+
+			Assert.IsNotNull (rover.Position);
+			Assert.IsNotNull (rover.Location);
+			Assert.AreEqual (rover.Position, CompassPoint.North);
+			Assert.AreEqual (rover.Location.X, 0);
+			Assert.AreEqual (rover.Location.Y, 0);
+		}
 	}
 }
+
 

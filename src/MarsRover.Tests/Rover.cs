@@ -11,6 +11,16 @@ namespace MarsRover.Tests
 			get{ return _name; }
 		}
 
+		public CompassPoint Position{
+			get;
+			set;
+		}
+
+		public Location Location {
+			get;
+			set;
+		}
+
 		private ICamera _camera;
 		public ICamera Camera {
 			get{ return _camera; }
@@ -33,6 +43,8 @@ namespace MarsRover.Tests
 			_camera = camera;
 			_name = Guid.NewGuid ().ToString ();
 			_photos = new Dictionary<string,Bitmap> ();
+
+			Location = new Location { X = 0, Y = 0 };
 		}
 
 		public void TakePhoto ()
@@ -51,5 +63,6 @@ namespace MarsRover.Tests
 			Photos.Clear ();
 		}
 	}
+
 }
 

@@ -9,6 +9,8 @@ namespace MarsRover.Tests
 		string Name { get;}
 		ICamera Camera {get;}
 		Dictionary<string,Bitmap> Photos { get; }
+		CompassPoint Position{ get;	set; }
+		Location Location {	get; set; }
 
 		void TakePhoto ();
 		void SendPhotosToNasa ();
