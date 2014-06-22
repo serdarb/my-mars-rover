@@ -111,23 +111,8 @@ namespace MarsRover.Tests
 			var nasa = _container.Resolve<ISpaceAgency>();
 			var spaceStation = nasa.CreateSpaceStation ();
 
-			int oldUprocessedCommandCount = spaceStation.UnprocessedCommands.Count;
-			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
-			int newUprocessedCommandCount = spaceStation.UnprocessedCommands.Count;
-
-			Assert.AreEqual (oldUprocessedCommandCount + 1, newUprocessedCommandCount);
-		}
-
-		[Test]
-		public void space_station_should_validate_navigation_commands()
-		{
-			var nasa = _container.Resolve<ISpaceAgency>();
-			var spaceStation = nasa.CreateSpaceStation ();
-
-			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
-
 			int oldResearchInfoCount = spaceStation.ResearchInfos.Count;
-			spaceStation.ValidateCommandsAndEnqueueResearchInfos ();
+			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
 			int newResearchInfoCount = spaceStation.ResearchInfos.Count;
 
 			Assert.AreEqual (oldResearchInfoCount + 2, newResearchInfoCount);
@@ -140,7 +125,6 @@ namespace MarsRover.Tests
 			var spaceStation = nasa.CreateSpaceStation ();
 
 			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
-			spaceStation.ValidateCommandsAndEnqueueResearchInfos ();
 
 			Assert.IsNotNull (spaceStation.Mars);
 			Assert.AreEqual (spaceStation.Mars.Plateau.Width, 5);
@@ -170,7 +154,7 @@ namespace MarsRover.Tests
 		}
 
 		[Test]
-		public void M_command_should_move_rover_forward()
+		public void rover_should_move_forward()
 		{
 			var nasa = _container.Resolve<ISpaceAgency>();
 			var rover = nasa.CreateRover ();
@@ -178,6 +162,21 @@ namespace MarsRover.Tests
 
 			Assert.IsTrue( rover.MoveForward ());
 			Assert.AreEqual (rover.Location.Y, 1);
+		}
+
+		[Test]
+		public void space_station_should_trigger_the_research_on_mars()
+		{
+			var nasa = _container.Resolve<ISpaceAgency>();
+			var spaceStation = nasa.CreateSpaceStation ();
+
+			for (int i = 0; i < 3; i++) {
+				nasa.SendRoverToMars (spaceStation.Mars, nasa.CreateRover ());
+			}
+
+			nasa.SendCommandsToSpaceStation (spaceStation, COMMANDS);
+
+			Assert.IsTrue( spaceStation.StartResearching ());
 		}
 	}
 }

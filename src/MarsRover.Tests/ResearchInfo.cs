@@ -4,7 +4,6 @@ using System.Drawing;
 
 namespace MarsRover.Tests
 {
-
 	public class ResearchInfo
 	{
 		public	string RoverPosition {

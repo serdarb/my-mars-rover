@@ -11,5 +11,6 @@ namespace MarsRover.Tests
 
 		void ValidateCommandsAndEnqueueResearchInfos ();
 		Plateau DefinePlateau (int width, int height);
+		bool StartResearching ();
 	}
 }

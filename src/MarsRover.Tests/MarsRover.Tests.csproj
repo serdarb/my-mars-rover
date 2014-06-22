@@ -70,6 +70,8 @@
     <Compile Include="ResearchInfo.cs" />
     <Compile Include="CommandParser.cs" />
     <Compile Include="ICommandParser.cs" />
+    <Compile Include="ExploreEndedEventArgs.cs" />
+    <Compile Include="ExploreEndedEventHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

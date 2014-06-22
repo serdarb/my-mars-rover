@@ -44,6 +44,7 @@ namespace MarsRover.Tests
 				throw new ArgumentNullException("commands");
 
 			spaceStation.UnprocessedCommands.Enqueue (commands);
+			spaceStation.ValidateCommandsAndEnqueueResearchInfos ();
 		}
 	}
 }

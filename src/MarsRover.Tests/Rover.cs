@@ -6,30 +6,24 @@ namespace MarsRover.Tests
 {
 	public class Rover : IRover
 	{
+		public event ResearchEndedEventHandler ResearchEnded;
+
 		private string _name;
 
 		public string Name {
 			get{ return _name; }
 		}
 
-		public CompassPoint Position {
-			get;
-			set;
-		}
-
-		public Location Location {
-			get;
-			set;
-		}
+		public bool IsResearching { get; set; }
+		public CompassPoint Position { get; set; }
+		public Location Location { get;	set; }
 
 		private ICamera _camera;
-
 		public ICamera Camera {
 			get{ return _camera; }
 		}
 
 		private Dictionary<string,Bitmap> _photos;
-
 		public Dictionary<string,Bitmap> Photos {
 			get{ return _photos; }
 		}
@@ -111,6 +105,17 @@ namespace MarsRover.Tests
 			Location.Y++;
 			return true;
 		}
+
+		public void Research ()
+		{
+			//processresearchinfo
+
+			Camera.TakePhoto ();
+
+			var exploreEndedEventArgs = new ResearchEndedEventArgs (string.Format("{0} {1} {2}", Location.X, Location.Y, Position.ToString()[0]));
+			ResearchEnded(this, exploreEndedEventArgs);
+		}
 	}
+
 }
 

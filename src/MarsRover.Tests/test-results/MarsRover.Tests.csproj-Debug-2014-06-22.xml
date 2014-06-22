@@ -535,6 +535,84 @@ Execution time: 0.41ms</Message>
 
 Execution time: 0.42ms</Message>
     </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:28:01</TestDate>
+      <Status />
+      <Passed>12</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:28:41</TestDate>
+      <Status />
+      <Passed>12</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:29:56</TestDate>
+      <Status />
+      <Passed>10</Passed>
+      <Errors>1</Errors>
+      <Failures>2</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:31:08</TestDate>
+      <Status />
+      <Passed>11</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:32:18</TestDate>
+      <Status />
+      <Passed>11</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2014-06-22T14:32:44</TestDate>
+      <Status />
+      <Passed>11</Passed>
+      <Errors>1</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
   </Results>
   <Tests>
     <TestRecord Name="MarsRover">
@@ -986,6 +1064,84 @@ Execution time: 0.40ms</Message>
           <Message>Test successful
 
 Execution time: 0.42ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:28:01</TestDate>
+          <Status />
+          <Passed>12</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:28:41</TestDate>
+          <Status />
+          <Passed>12</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:29:56</TestDate>
+          <Status />
+          <Passed>10</Passed>
+          <Errors>1</Errors>
+          <Failures>2</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:31:08</TestDate>
+          <Status />
+          <Passed>11</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:32:18</TestDate>
+          <Status />
+          <Passed>11</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2014-06-22T14:32:44</TestDate>
+          <Status />
+          <Passed>11</Passed>
+          <Errors>1</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
         </UnitTestResult>
       </Results>
       <Tests>
@@ -1439,6 +1595,84 @@ Execution time: 0.40ms</Message>
 
 Execution time: 0.41ms</Message>
             </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:28:01</TestDate>
+              <Status />
+              <Passed>12</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:28:41</TestDate>
+              <Status />
+              <Passed>12</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:29:56</TestDate>
+              <Status />
+              <Passed>10</Passed>
+              <Errors>1</Errors>
+              <Failures>2</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:31:08</TestDate>
+              <Status />
+              <Passed>11</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:32:18</TestDate>
+              <Status />
+              <Passed>11</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2014-06-22T14:32:44</TestDate>
+              <Status />
+              <Passed>11</Passed>
+              <Errors>1</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
           </Results>
           <Tests>
             <TestRecord Name="DomainDesignTests">
@@ -1891,6 +2125,145 @@ Execution time: 0.40ms</Message>
                 </UnitTestResult>
                 <UnitTestResult>
                   <TestDate>2014-06-22T13:35:12</TestDate>
+                  <Status />
+                  <Passed>12</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.41ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:28:01</TestDate>
+                  <Status />
+                  <Passed>12</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:28:41</TestDate>
+                  <Status />
+                  <Passed>12</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:29:56</TestDate>
+                  <Status />
+                  <Passed>10</Passed>
+                  <Errors>1</Errors>
+                  <Failures>2</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:31:08</TestDate>
+                  <Status />
+                  <Passed>11</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:32:18</TestDate>
+                  <Status />
+                  <Passed>11</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:32:44</TestDate>
+                  <Status />
+                  <Passed>11</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:35:35</TestDate>
+                  <Status>Failure</Status>
+                  <Passed>0</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Connection refused</Message>
+                  <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:36:35</TestDate>
+                  <Status />
+                  <Passed>11</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:36:57</TestDate>
+                  <Status />
+                  <Passed>12</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.42ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-06-22T14:37:36</TestDate>
                   <Status />
                   <Passed>12</Passed>
                   <Errors>0</Errors>
@@ -2542,6 +2915,176 @@ Execution time: 0.02ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -3127,6 +3670,176 @@ Execution time: 0.00ms</Message>
                     </UnitTestResult>
                     <UnitTestResult>
                       <TestDate>2014-06-22T13:35:12</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
                       <Status />
                       <Passed>1</Passed>
                       <Errors>0</Errors>
@@ -3732,6 +4445,176 @@ Execution time: 0.11ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -4328,6 +5211,176 @@ Execution time: 0.01ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -4673,6 +5726,176 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -5001,6 +6224,176 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -5313,6 +6706,181 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 1
+  But was:  0
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at MarsRover.Tests.DomainDesignTests.nasa_sends_string_commands_to_control_rovers () [0x0003c] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:118 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -5517,6 +7085,176 @@ Execution time: 0.03ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.03ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -5624,6 +7362,62 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>  Expected: 4
+  But was:  2
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (Int32 expected, Int32 actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_validate_navigation_commands () [0x00042] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:133 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                   <Tests />
                 </TestRecord>
@@ -5663,7 +7457,178 @@ Execution time: 0.15ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.16ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.17ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.14ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
+                  <Tests />
                 </TestRecord>
                 <TestRecord Name="R_command_should_make_rover_spin_lest">
                   <Results>
@@ -5701,7 +7666,178 @@ Execution time: 0.00ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
+                  <Tests />
                 </TestRecord>
                 <TestRecord Name="M_command_should_move_rover_forward">
                   <Results>
@@ -5720,6 +7856,422 @@ Execution time: 0.00ms</Message>
 
 Execution time: 0.00ms</Message>
                       <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="rover_should_move_forward">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:35:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="space_station_should_trigger_the_research_on_mars">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:01</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Exception : there is no research info to run rovers</Message>
+                      <StackTrace>  at MarsRover.Tests.SpaceStation.StartResearching () [0x00029] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:76 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00015] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:189 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:28:41</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Exception : there is no research info to run rovers</Message>
+                      <StackTrace>  at MarsRover.Tests.SpaceStation.StartResearching () [0x00029] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:76 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00021] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:191 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:29:56</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Exception : there is no rover on mars</Message>
+                      <StackTrace>  at MarsRover.Tests.SpaceStation.ConnectToRover (MarsRover.Tests.ResearchInfo researchInfo) [0x0006e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:104 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x0000f] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:88 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00021] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:190 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:31:08</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Exception : there is no rover on mars</Message>
+                      <StackTrace>  at MarsRover.Tests.SpaceStation.ConnectToRover (MarsRover.Tests.ResearchInfo researchInfo) [0x0006e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:104 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x0000f] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:88 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00021] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:175 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:18</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Peek () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Dequeue () [0x00000] in &lt;filename unknown&gt;:0 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00007] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:87 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00047] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:179 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:32:44</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Peek () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Dequeue () [0x00000] in &lt;filename unknown&gt;:0 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00007] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:87 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00047] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:179 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:34:23</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.InvalidOperationException : Operation is not valid due to the current state of the object</Message>
+                      <StackTrace>  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Peek () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Collections.Generic.Queue`1[MarsRover.Tests.ResearchInfo].Dequeue () [0x00000] in &lt;filename unknown&gt;:0 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00007] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:87 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00028] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:90 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00047] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:179 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:35</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>System.Exception : there is no research to do</Message>
+                      <StackTrace>  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00048] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:94 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00043] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:93 
+  at MarsRover.Tests.SpaceStation.roverResearchEnded (System.Object sender, System.EventArgs e) [0x0001e] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:82 
+  at MarsRover.Tests.Rover.Research () [0x00060] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/Rover.cs:116 
+  at MarsRover.Tests.SpaceStation.DoNextResearch () [0x00043] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:93 
+  at MarsRover.Tests.SpaceStation.StartResearching () [0x0001d] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/SpaceStation.cs:73 
+  at MarsRover.Tests.DomainDesignTests.space_station_should_trigger_the_research_on_mars () [0x00047] in /home/serdar/Work/my-mars-rover/src/MarsRover.Tests/DomainDesignTests.cs:179 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:36:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-06-22T14:37:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                      <ConsoleOutput>rover research ended &gt; 0 0 N
+rover research ended &gt; 0 0 N
+all researches completed...
+</ConsoleOutput>
                       <ConsoleError />
                     </UnitTestResult>
                   </Results>
