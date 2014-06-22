@@ -1,0 +1,14 @@
+A General Summary of Mars Rover Problem
+
+
+Given there is a planet "Mars"
+	And "Mars" has a 'rectangular' "plateau"
+	And there is a space agency "NASA" 		
+When "NASA" creates a "SpaceStation"
+	And "NASA" creates "Rover" squad
+	And sends "NaviagationCommands" to "SpaceStation" to control "Rover"
+Then "Rover" should navigate plateau
+	And Rover's "Camera" can take a photo
+	And "Rover" can send photos to "NASA"
+
+

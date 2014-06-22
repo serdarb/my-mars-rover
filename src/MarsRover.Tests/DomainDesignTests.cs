@@ -10,11 +10,11 @@ namespace MarsRover.Tests
 		public void mars_should_have_a_rectengular_plataeu()
 		{
 			var mars = new Mars ();
-			mars.Plataeu = new Plataue ();
+			mars.Plateau = new Plateau ();
 
-			Assert.That (mars, Has.Property("Plataeu"));
-			Assert.IsNotNull (mars.Plataeu);
-			Assert.IsInstanceOf (typeof(Rectangular), mars.Plataeu);
+			Assert.That (mars, Has.Property("Plateau"));
+			Assert.IsNotNull (mars.Plateau);
+			Assert.IsInstanceOf (typeof(Rectangular), mars.Plateau);
 		}
 	}
 }

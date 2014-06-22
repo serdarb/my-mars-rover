@@ -38,8 +38,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DomainDesignTests.cs" />
     <Compile Include="Mars.cs" />
-    <Compile Include="Plataue.cs" />
     <Compile Include="Rectangular.cs" />
+    <Compile Include="Plateau.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

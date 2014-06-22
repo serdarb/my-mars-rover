@@ -4,7 +4,7 @@ namespace MarsRover.Tests
 {
 	public class Mars
 	{
-		public Plataue Plataeu {
+		public Plateau Plateau {
 			get;
 			set;
 		}

@@ -2,7 +2,7 @@ using System;
 
 namespace MarsRover.Tests
 {
-	public class Plataue : Rectangular
+	public class Plateau : Rectangular
 	{
 	}
 }
