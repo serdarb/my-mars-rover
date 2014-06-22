@@ -35,7 +35,8 @@ namespace MarsRover.Tests
 		[Test]
 		public void rover_camera_should_take_a_photo()
 		{
-			var rover = new Rover ();
+			var nasa = new Nasa ();
+			var rover = nasa.CreateRover ();
 			rover.Camera = new Camera ();
 
 			Assert.IsNotNull (rover.Camera);
@@ -46,6 +47,21 @@ namespace MarsRover.Tests
 			int newPhotoCount = rover.Photos.Count;
 
 			Assert.AreEqual (oldPhotoCount + 1, newPhotoCount);
+		}
+
+		[Test]
+		public void rover_should_send_photos_to_nasa()
+		{
+			var nasa = new Nasa ();
+			var rover = nasa.CreateRover ();
+
+			rover.TakePhoto ();
+
+			int oldPhotoCount = rover.Photos.Count;
+			rover.SendPhotosToNasa ();
+			int newPhotoCount = rover.Photos.Count;
+
+			Assert.AreEqual (0, newPhotoCount);
 		}
 	}
 }

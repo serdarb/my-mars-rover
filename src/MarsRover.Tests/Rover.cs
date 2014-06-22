@@ -7,6 +7,11 @@ namespace MarsRover.Tests
 {
 	public class Rover
 	{
+		public string Name {
+			get;
+			set;
+		}
+
 		public Camera Camera {
 			get;
 			set;
@@ -17,15 +22,30 @@ namespace MarsRover.Tests
 			set;
 		}
 
-		public Rover ()
+		private Nasa _nasa;
+		public Rover (Nasa nasa)
 		{
+			_nasa = nasa;
+
+			Name = Guid.NewGuid ().ToString ();
+			Camera = new Camera ();
 			Photos = new Dictionary<string,Bitmap> ();
 		}
 
 		public void TakePhoto ()
 		{
 			var image = Camera.TakePhoto ();
-			Photos.Add (Guid.NewGuid().ToString(),image);
+			var imagaName = string.Format ("{0}-{1}.bmp",Name,Guid.NewGuid().ToString());
+			Photos.Add (imagaName, image);
+		}
+
+		public void SendPhotosToNasa ()
+		{
+			foreach (var item in Photos) {
+				_nasa.Photos.Add (item.Key,item.Value);
+			}		
+
+			Photos.Clear ();
 		}
 	}
 }
