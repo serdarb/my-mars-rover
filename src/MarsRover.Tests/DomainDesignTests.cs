@@ -16,6 +16,23 @@ namespace MarsRover.Tests
 			Assert.IsNotNull (mars.Plateau);
 			Assert.IsInstanceOf (typeof(Rectangular), mars.Plateau);
 		}
+
+		[Test]
+		public void nasa_should_land_rovers_on_mars()
+		{
+			var nasa = new Nasa ();
+			var rover = nasa.CreateRover ();
+
+			var mars = new Mars ();
+
+			int oldRoverCount = mars.Rovers.Count;
+			nasa.SendRoverToMars (mars, rover);
+			int newRoverCount = mars.Rovers.Count;
+
+			Assert.IsNotNull (mars.Rovers);
+			Assert.AreEqual (oldRoverCount + 1, newRoverCount);
+		}
+
 	}
 }
 

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace MarsRover.Tests
 {
@@ -7,6 +8,16 @@ namespace MarsRover.Tests
 		public Plateau Plateau {
 			get;
 			set;
+		}
+
+		public List<Rover> Rovers {
+			get;
+			set;
+		}
+
+		public Mars ()
+		{
+			Rovers = new List<Rover> ();
 		}
 	}
 }

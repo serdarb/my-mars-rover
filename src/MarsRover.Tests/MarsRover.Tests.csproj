@@ -40,6 +40,8 @@
     <Compile Include="Mars.cs" />
     <Compile Include="Rectangular.cs" />
     <Compile Include="Plateau.cs" />
+    <Compile Include="Nasa.cs" />
+    <Compile Include="Rover.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
