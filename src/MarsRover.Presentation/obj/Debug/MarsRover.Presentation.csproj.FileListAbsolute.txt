@@ -1,0 +1,6 @@
+D:\work\my-mars-rover\src\MarsRover.Presentation\bin\Debug\MarsRover.Presentation.exe
+D:\work\my-mars-rover\src\MarsRover.Presentation\bin\Debug\MarsRover.Presentation.pdb
+D:\work\my-mars-rover\src\MarsRover.Presentation\bin\Debug\MarsRover.Business.dll
+D:\work\my-mars-rover\src\MarsRover.Presentation\bin\Debug\MarsRover.Business.pdb
+D:\work\my-mars-rover\src\MarsRover.Presentation\obj\Debug\MarsRover.Presentation.exe
+D:\work\my-mars-rover\src\MarsRover.Presentation\obj\Debug\MarsRover.Presentation.pdb

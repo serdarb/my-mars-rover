@@ -1,0 +1,15 @@
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\MarsRover.Tests.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\MarsRover.Tests.pdb
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Castle.Core.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Castle.Windsor.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\MarsRover.Business.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Moq.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\nunit.framework.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\MarsRover.Business.pdb
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\nunit.framework.xml
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Castle.Core.xml
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Castle.Windsor.xml
+D:\work\my-mars-rover\src\MarsRover.Tests\bin\Debug\Moq.xml
+D:\work\my-mars-rover\src\MarsRover.Tests\obj\Debug\MarsRover.Tests.csprojResolveAssemblyReference.cache
+D:\work\my-mars-rover\src\MarsRover.Tests\obj\Debug\MarsRover.Tests.dll
+D:\work\my-mars-rover\src\MarsRover.Tests\obj\Debug\MarsRover.Tests.pdb

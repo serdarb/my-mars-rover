@@ -1,0 +1,5 @@
+D:\work\my-mars-rover\src\MarsRover.Business\bin\Debug\MarsRover.Business.dll
+D:\work\my-mars-rover\src\MarsRover.Business\bin\Debug\MarsRover.Business.pdb
+D:\work\my-mars-rover\src\MarsRover.Business\obj\Debug\MarsRover.Business.csprojResolveAssemblyReference.cache
+D:\work\my-mars-rover\src\MarsRover.Business\obj\Debug\MarsRover.Business.dll
+D:\work\my-mars-rover\src\MarsRover.Business\obj\Debug\MarsRover.Business.pdb
